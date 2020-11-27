@@ -1,0 +1,242 @@
+<?xml version="1.0"?>
+<simRes version="3.00" nbElements="6">
+  <nbHubs>0</nbHubs>
+  <nbSwitch>0</nbSwitch>
+  <nbRouter>0</nbRouter>
+  <nbCartesReseau>11</nbCartesReseau>
+  <nbStations>2</nbStations>
+  <dernierIdNoeud>3</dernierIdNoeud>
+  <adrReseauInternet1>172.11.0.0</adrReseauInternet1>
+  <adrReseauInternet2>172.12.0.0</adrReseauInternet2>
+  <adrReseauInternet3>172.13.0.0</adrReseauInternet3>
+  <adrReseauInternet4>172.14.0.0</adrReseauInternet4>
+  <adrReseauInternet5>172.15.0.0</adrReseauInternet5>
+  <iconeMessage />
+  <station nomNoeud="st1">
+    <idNoeud>1</idNoeud>
+    <infoNoeud />
+    <nbPointsConnexion>2</nbPointsConnexion>
+    <Location.X>142</Location.X>
+    <Location.Y>206</Location.Y>
+    <PosDemo.X>0</PosDemo.X>
+    <PosDemo.Y>0</PosDemo.Y>
+    <ConfigIpStation>
+      <passerelle>172.11.0.1</passerelle>
+      <routageActif>False</routageActif>
+      <natPatActif>False</natPatActif>
+      <carteQuiNat>-1</carteQuiNat>
+      <serveurDns>0.0.0.0</serveurDns>
+      <Routes nbLignes="7">
+        <ligne nbValeurs="6" clef="01">
+          <valeur>01</valeur>
+          <valeur>192.168.1.1</valeur>
+          <valeur>255.255.255.255</valeur>
+          <valeur>192.168.1.1</valeur>
+          <valeur>192.168.1.1</valeur>
+          <valeur>1</valeur>
+        </ligne>
+        <ligne nbValeurs="6" clef="02">
+          <valeur>02</valeur>
+          <valeur>192.168.1.0</valeur>
+          <valeur>255.255.255.0</valeur>
+          <valeur>192.168.1.1</valeur>
+          <valeur>192.168.1.1</valeur>
+          <valeur>1</valeur>
+        </ligne>
+        <ligne nbValeurs="6" clef="03">
+          <valeur>03</valeur>
+          <valeur>192.168.1.255</valeur>
+          <valeur>255.255.255.255</valeur>
+          <valeur>192.168.1.1</valeur>
+          <valeur>192.168.1.1</valeur>
+          <valeur>1</valeur>
+        </ligne>
+        <ligne nbValeurs="6" clef="04">
+          <valeur>04</valeur>
+          <valeur>172.11.0.3</valeur>
+          <valeur>255.255.255.255</valeur>
+          <valeur>172.11.0.3</valeur>
+          <valeur>172.11.0.3</valeur>
+          <valeur>1</valeur>
+        </ligne>
+        <ligne nbValeurs="6" clef="05">
+          <valeur>05</valeur>
+          <valeur>172.11.0.0</valeur>
+          <valeur>255.255.0.0</valeur>
+          <valeur>172.11.0.3</valeur>
+          <valeur>172.11.0.3</valeur>
+          <valeur>1</valeur>
+        </ligne>
+        <ligne nbValeurs="6" clef="06">
+          <valeur>06</valeur>
+          <valeur>172.11.255.255</valeur>
+          <valeur>255.255.255.255</valeur>
+          <valeur>172.11.0.3</valeur>
+          <valeur>172.11.0.3</valeur>
+          <valeur>1</valeur>
+        </ligne>
+        <ligne nbValeurs="6" clef="07">
+          <valeur>07</valeur>
+          <valeur>0.0.0.0</valeur>
+          <valeur>0.0.0.0</valeur>
+          <valeur>172.11.0.1</valeur>
+          <valeur>172.11.0.3</valeur>
+          <valeur>1</valeur>
+        </ligne>
+      </Routes>
+      <CacheARP nbLignes="0" />
+      <FichierHosts nbLignes="0" />
+      <PortsEcoutes nbLignes="0" />
+      <NatPat nbLignes="0" />
+      <ReglesFiltrage nbLignes="0" />
+    </ConfigIpStation>
+    <AccesDistant>True</AccesDistant>
+    <carte adresseMac="mac01">
+      <PosDemoEmission.X>0</PosDemoEmission.X>
+      <PosDemoEmission.Y>0</PosDemoEmission.Y>
+      <ConfigIpCarte>
+        <clientDhcp>False</clientDhcp>
+        <adresse>192.168.1.1</adresse>
+        <masque>255.255.255.0</masque>
+      </ConfigIpCarte>
+    </carte>
+    <carteAccesDistant adresseMac="mac10">
+      <ConfigIpCarte>
+        <clientDhcp>False</clientDhcp>
+        <adresse>172.11.0.3</adresse>
+        <masque>255.255.0.0</masque>
+      </ConfigIpCarte>
+    </carteAccesDistant>
+  </station>
+  <station nomNoeud="st2">
+    <idNoeud>2</idNoeud>
+    <infoNoeud />
+    <nbPointsConnexion>2</nbPointsConnexion>
+    <Location.X>348</Location.X>
+    <Location.Y>202</Location.Y>
+    <PosDemo.X>0</PosDemo.X>
+    <PosDemo.Y>0</PosDemo.Y>
+    <ConfigIpStation>
+      <passerelle>172.12.0.2</passerelle>
+      <routageActif>False</routageActif>
+      <natPatActif>False</natPatActif>
+      <carteQuiNat>-1</carteQuiNat>
+      <serveurDns>0.0.0.0</serveurDns>
+      <Routes nbLignes="7">
+        <ligne nbValeurs="6" clef="01">
+          <valeur>01</valeur>
+          <valeur>192.168.1.2</valeur>
+          <valeur>255.255.255.255</valeur>
+          <valeur>192.168.1.2</valeur>
+          <valeur>192.168.1.2</valeur>
+          <valeur>1</valeur>
+        </ligne>
+        <ligne nbValeurs="6" clef="02">
+          <valeur>02</valeur>
+          <valeur>192.168.1.0</valeur>
+          <valeur>255.255.255.0</valeur>
+          <valeur>192.168.1.2</valeur>
+          <valeur>192.168.1.2</valeur>
+          <valeur>1</valeur>
+        </ligne>
+        <ligne nbValeurs="6" clef="03">
+          <valeur>03</valeur>
+          <valeur>192.168.1.255</valeur>
+          <valeur>255.255.255.255</valeur>
+          <valeur>192.168.1.2</valeur>
+          <valeur>192.168.1.2</valeur>
+          <valeur>1</valeur>
+        </ligne>
+        <ligne nbValeurs="6" clef="04">
+          <valeur>04</valeur>
+          <valeur>172.12.0.4</valeur>
+          <valeur>255.255.255.255</valeur>
+          <valeur>172.12.0.4</valeur>
+          <valeur>172.12.0.4</valeur>
+          <valeur>1</valeur>
+        </ligne>
+        <ligne nbValeurs="6" clef="05">
+          <valeur>05</valeur>
+          <valeur>172.12.0.0</valeur>
+          <valeur>255.255.0.0</valeur>
+          <valeur>172.12.0.4</valeur>
+          <valeur>172.12.0.4</valeur>
+          <valeur>1</valeur>
+        </ligne>
+        <ligne nbValeurs="6" clef="06">
+          <valeur>06</valeur>
+          <valeur>172.12.255.255</valeur>
+          <valeur>255.255.255.255</valeur>
+          <valeur>172.12.0.4</valeur>
+          <valeur>172.12.0.4</valeur>
+          <valeur>1</valeur>
+        </ligne>
+        <ligne nbValeurs="6" clef="07">
+          <valeur>07</valeur>
+          <valeur>0.0.0.0</valeur>
+          <valeur>0.0.0.0</valeur>
+          <valeur>172.12.0.2</valeur>
+          <valeur>172.12.0.4</valeur>
+          <valeur>1</valeur>
+        </ligne>
+      </Routes>
+      <CacheARP nbLignes="0" />
+      <FichierHosts nbLignes="0" />
+      <PortsEcoutes nbLignes="1">
+        <ligne nbValeurs="3" clef="01">
+          <valeur>01</valeur>
+          <valeur>TCP</valeur>
+          <valeur>22</valeur>
+        </ligne>
+      </PortsEcoutes>
+      <NatPat nbLignes="0" />
+      <ReglesFiltrage nbLignes="0" />
+    </ConfigIpStation>
+    <AccesDistant>True</AccesDistant>
+    <carte adresseMac="mac03">
+      <PosDemoEmission.X>0</PosDemoEmission.X>
+      <PosDemoEmission.Y>0</PosDemoEmission.Y>
+      <ConfigIpCarte>
+        <clientDhcp>False</clientDhcp>
+        <adresse>192.168.1.2</adresse>
+        <masque>255.255.255.0</masque>
+      </ConfigIpCarte>
+    </carte>
+    <carteAccesDistant adresseMac="mac11">
+      <ConfigIpCarte>
+        <clientDhcp>False</clientDhcp>
+        <adresse>172.12.0.4</adresse>
+        <masque>255.255.0.0</masque>
+      </ConfigIpCarte>
+    </carteAccesDistant>
+  </station>
+  <internet>
+    <idNoeud>3</idNoeud>
+    <infoNoeud />
+    <nbPointsConnexion>4</nbPointsConnexion>
+    <Location.X>231</Location.X>
+    <Location.Y>76</Location.Y>
+    <PosDemo.X>0</PosDemo.X>
+    <PosDemo.Y>0</PosDemo.Y>
+    <macPort1>mac06</macPort1>
+    <macPort2>mac07</macPort2>
+    <macPort3>mac08</macPort3>
+    <macPort4>mac09</macPort4>
+  </internet>
+  <cable>
+    <type>telecom</type>
+    <longueur>30</longueur>
+    <noeudPointA>3</noeudPointA>
+    <portPointA>1</portPointA>
+    <noeudPointB>1</noeudPointB>
+    <portPointB>2</portPointB>
+  </cable>
+  <cable>
+    <type>telecom</type>
+    <longueur>30</longueur>
+    <noeudPointA>3</noeudPointA>
+    <portPointA>4</portPointA>
+    <noeudPointB>2</noeudPointB>
+    <portPointB>2</portPointB>
+  </cable>
+</simRes>
